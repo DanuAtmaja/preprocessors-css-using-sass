@@ -1,0 +1,107 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+a {
+  font-style: italic;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Aleygreya Sans", Arial, sans-serif;
+  color: #222222;
+  font-size: 1.125em;
+  color: #0a0f32;
+  background-color: white;
+}
+
+@media only screens and (max-width: 960px) {
+  body {
+    font-size: 125%;
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Titillium Web", Georgia, serif;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Aleygreya Sans", Arial, sans-serif;
+}
+
+a {
+  color: #f27731;
+}
+
+a:hover {
+  color: #ca510d;
+}
+
+.warning-button {
+  background-color: orange;
+  color: #ffffff;
+  padding: 8px 12px;
+}
+
+.warning-button:hover {
+  background-color: #ffb733;
+}
+
+* html body {
+  font-size: 125%;
+}
+
+#header {
+  border-radius: 12px;
+  border: 1px solid #fff;
+  box-shadow: 2px 0px 4px #999, 1px 1px 6px #f27731;
+  -moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #f27731;
+  -webkit-box-shadow: 2px 0px 4px #999, 1px 1px 6px #f27731;
+  height: 60px;
+  background-color: #170a48;
+}
+
+#header #main-menu li {
+  display: inline;
+}
+
+#header a {
+  color: white;
+  border-bottom: 1px solid rgba(254, 254, 254, 0);
+  padding: 6px 8px;
+  -webkit-transition: border-bottom 1s;
+  transition: border-bottom 1s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+#header a:hover {
+  border-bottom: 1px solid #fefefe;
+}
+
+#main {
+  border-radius: 8px;
+  border: 1px solid #999;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screens and (max-width: 960px) {
+  #main {
+    width: auto;
+    max-width: 960px;
+  }
+}
+
+#footer {
+  height: 90px;
+  background-color: #ccf962;
+}
+/*# sourceMappingURL=main.css.map */
